@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Role Selection</title>
+</head>
+<body>
+    <h1>Select Your Role</h1>
+    <form action="/role" method="POST">
+        <label for="role">Select Role:</label><br>
+        <input type="radio" id="admin" name="role" value="admin">
+        <label for="admin">Admin</label><br>
+        <input type="radio" id="student" name="role" value="student">
+        <label for="student">Student</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
