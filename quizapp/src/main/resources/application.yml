@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  profiles:
+    active: default
+  datasource:
+    url: jdbc:mysql://localhost:3306/questiondb?useSSL=false&serverTimezone=UTC
+    username: root
+    password: Vansh@09
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+ 
